@@ -1,286 +1,212 @@
 # Book Principles — Data & AI Foundations
 
-These principles govern the book's content, explanations, examples, technical depth and learning experience.
+These principles govern the design, writing, teaching and evaluation of the book and course.
 
-They take precedence over the temptation to add more topics, tools, chapters or visual material.
+## 1. Start with why understanding matters
 
-## 1. Start with a question, not a technology
+The book must explain why understanding data, computation and AI is increasingly important in professional work and everyday life.
 
-Every chapter begins with a meaningful question or problem.
+It must show:
+- How dependence on data and AI systems is growing.
+- Why using a system is different from understanding it.
+- What people risk missing when they cannot evaluate the systems they depend on.
+- What they gain through stronger understanding, practical capability and independent judgement.
 
-A technology is introduced only when it helps answer that question.
+Do not rely on fear of job displacement or technology hype. The enduring value is greater agency, adaptability and informed participation.
 
-Avoid starting with product names, frameworks, vendor architectures or fashionable terminology.
+## 2. Fundamentals before tools
 
-## 2. Teach principles that survive technological change
+Explain the underlying problem and principle before introducing a technology, product or framework.
 
-Prefer concepts that help readers understand multiple technologies and generations of systems.
+A learner should understand why a capability is needed before learning how a particular tool implements it.
 
-Explain current tools when useful, but distinguish:
-- Enduring principles.
-- Current implementations.
-- Vendor-specific choices.
-- Emerging practices.
+Tools are examples, not the conceptual foundation.
 
-## 3. Connect the parts into a system
+## 3. Build from reality, not from the technology market
 
-Use the recurring framework:
+Begin with the world we observe and the problems we want to understand.
 
-Reality → Representation → Data & Information → Evidence → Intelligence → Decision → Action → Outcome → Learning.
+Progress through representation, information, computation, data systems, evidence, intelligence, decisions, actions and learning.
 
-Do not present this as a simple sequence. Show dependencies, parallel processes and feedback loops.
+Do not organise the book around current industry categories or vendor product portfolios.
 
-## 4. Preserve conceptual precision
+## 4. Maintain conceptual continuity
 
-Important concepts must not be used interchangeably merely because they are related.
+Every chapter must follow naturally from the previous question and create a reason for the next one.
 
-Maintain clear boundaries between:
+The six-part structure and 39-chapter syllabus are intentional. Do not add chapters casually to solve local content gaps.
 
-- Reality and representation.
-- Measurement and observation.
-- Data and information.
-- Information and knowledge.
-- Data and evidence.
-- Correlation and causation.
-- Explanation and prediction.
-- Model and reality.
-- Intelligence and decision.
-- Decision and action.
-- Automation and autonomy.
-- Feedback and learning.
+Use examples, sidebars, exercises and cross-references to improve coverage before changing the structure.
 
-For every important distinction, explain why it matters in practice.
+## 5. Teach understanding, application and evaluation
 
-## 5. Use three learning layers
+Every chapter must develop three connected capabilities:
 
-Every chapter should support:
+- Understand the concept and why it exists.
+- Explain the mechanism and apply it.
+- Evaluate assumptions, limitations, failures and trade-offs.
 
-### Understand
-- What problem exists?
-- Why should the reader care?
-- What is the intuitive mental model?
-- Can it be explained in plain language?
+Remembering a definition is not evidence of understanding. Completing a tutorial is not evidence of independent capability.
 
-### Explain
-- What are the components?
-- How does the mechanism work?
-- What information moves through the system?
-- What assumptions are required?
-- Can the reader trace a worked example?
+## 6. Make the learning journey diagnostic
 
-### Evaluate
-- When does the approach work?
-- When does it fail?
-- What are the alternatives?
-- What trade-offs are involved?
-- What are the technical, financial, organisational and human consequences?
+Begin with a readiness assessment.
 
-Do not force equal length across the three layers.
+Use the results to identify strengths and gaps across multiple dimensions. Do not reduce learners to one proficiency label.
 
-## 6. Be accessible without becoming superficial
+Use chapter checkpoints and part-level milestones to make progress visible.
 
-- Explain unfamiliar terms when first introduced.
-- Use plain language without sacrificing technical accuracy.
-- Introduce mathematics when it adds explanatory power.
-- Provide optional prerequisite boxes for concepts such as probability, logarithms, SQL, vectors and optimisation.
-- Do not assume a computer science degree.
-- Do not avoid technical detail merely because some readers are beginners.
+Repeat an equivalent assessment at the end to help learners recognise development and identify remaining learning priorities.
 
-Accessibility means making difficult ideas understandable, not removing the difficult ideas.
+The assessment is a learning diagnostic, not a certification or validated psychometric instrument.
 
-## 7. Explain mechanisms, not just metaphors
+## 7. Teach for agency, not dependency
 
-Analogies and visual sketches are entry points, not substitutes for accurate explanations.
+Learners should become better at:
+- Questioning information.
+- Evaluating claims and AI outputs.
+- Understanding system behaviour.
+- Making reasoned technology choices.
+- Recognising risks and consequences.
+- Adapting to unfamiliar technologies.
 
-Every technical chapter should eventually explain the actual mechanism.
+Do not create a book that makes readers dependent on the author, a particular tool or a prescribed technology stack.
 
-For example, a payment retry analogy should lead to a real explanation of:
-- At-most-once and at-least-once delivery.
-- Idempotency keys.
-- Deduplication.
-- Acknowledgement and commit.
-- Ordering and consistency.
-- Failure recovery.
-- Differences between client and server state.
+## 8. Explain mechanisms accurately
 
-A RAG analogy should lead to a real explanation of retrieval, relevance, context construction, grounding and answer evaluation.
+Do not substitute analogies for explanations.
 
-## 8. Use examples that reveal behaviour
+Analogies may establish intuition, but they must be followed by accurate mechanisms, terminology and boundaries.
 
-Every chapter should use examples deliberately.
+Explain what happens, why it happens, under what conditions it works and how it can fail.
 
-### Anchor example
-Demonstrates the main mechanism.
+## 9. Use examples that reveal principles
 
-### Boundary example
-Shows where the explanation, analogy or assumption stops working.
+Examples must do real explanatory work.
 
-### Transfer challenge
-Asks the reader to apply the idea to a different domain.
+Each chapter should aim to include:
+- An anchor example.
+- A boundary or failure example.
+- A transfer challenge.
 
-For technical chapters, include a failure or diagnostic example.
+Use recurring examples across chapters so readers can see how different principles interact.
 
-Avoid examples that only restate the explanation in different words.
+Include professional and everyday contexts. Do not make every example a technology-company scenario.
 
-## 9. Show what can go wrong
+## 10. Be accessible without becoming superficial
 
-A system is not understood until its failure modes are understood.
+Explain jargon when it first becomes important.
 
-Explore:
-- Incorrect assumptions.
-- Incomplete or biased data.
-- Measurement error.
-- Concurrency and distributed failures.
-- Silent data corruption.
-- Model leakage and drift.
-- Retrieval failure and hallucination.
-- Security and privacy risks.
-- Human misuse and automation bias.
-- Organisational incentives and unintended consequences.
+Use plain language, diagrams and progressive explanations, but preserve technical accuracy.
 
-Where possible, show how to detect, diagnose and recover from failures.
+Make prerequisites explicit. Where mathematics, statistics or programming are required, explain the minimum useful foundation and provide optional refreshers.
 
-## 10. Connect technology to outcomes
+Do not remove important complexity merely to make a chapter appear beginner-friendly.
 
-Technology is not the final objective.
+## 11. Separate facts, assumptions and interpretations
 
-For relevant topics, explain how technical choices affect:
-- Business value.
-- Customer or citizen outcomes.
-- Cost and operational workload.
-- Reliability and resilience.
-- Risk and accountability.
-- Skills and operating models.
-- Human judgement and decision rights.
+Make clear whether a statement is:
+- A definition.
+- An established principle.
+- An illustrative simplification.
+- An assumption.
+- An interpretation.
+- A contested or evolving view.
 
-Do not bolt on generic management commentary. Show the consequence arising from the actual system.
+Use evidence and references for factual, historical and empirical claims.
 
-## 11. Treat production as part of the technical story
+Do not present opinions as universal truths.
 
-A model that works in a notebook is not automatically a dependable AI product.
+## 12. Explain evolution, not just the present
 
-A data pipeline that runs once is not automatically a reliable data platform.
+Show why a concept or technology emerged, what limitations it addressed and what new problems it introduced.
 
-Where relevant, explain the transition from prototype to production:
-- Integration.
-- Deployment.
-- Serving.
-- Evaluation.
-- Monitoring.
-- Observability.
-- Security.
-- Privacy.
-- Cost.
-- Recovery.
-- Ownership.
-- Continuous improvement.
+Historical context should explain evolution, not become a catalogue of dates and products.
 
-## 12. Avoid tool worship
+## 13. Connect technical and organisational reality
 
-Tools are examples of implementation choices, not the subject's organising structure.
+Technical systems exist within organisations and societies.
 
-When mentioning a tool:
-- Explain the problem it solves.
-- Identify the underlying principle.
-- Show its assumptions and limitations.
-- Mention alternatives where useful.
-- Avoid unnecessary version-specific instructions.
+Where relevant, discuss ownership, operating models, business value, decision rights, costs, risk, adoption, governance and accountability.
 
-Core learning should remain possible with free or accessible resources wherever practical.
+Do not turn the book into a generic management textbook. Integrate these dimensions where they affect technical design or outcomes.
 
-## 13. Make practical work meaningful
+## 14. Treat AI critically and constructively
 
-Practical activities should help learners understand a concept, test an assumption or diagnose behaviour.
+Do not portray AI as magic, inevitable progress or a universal solution.
 
-Do not include exercises merely to make a chapter appear practical.
+Explain capabilities, mechanisms, limitations, evaluation, grounding, uncertainty, safety, security, human oversight and accountability.
 
-Useful activities include:
-- Build a small implementation.
-- Change one assumption and observe the result.
-- Inject a failure.
-- Measure a system.
-- Compare two approaches.
-- Diagnose an unexpected outcome.
-- Explain why an implementation is inappropriate.
+Distinguish generated output from verified knowledge and model capability from real-world suitability.
 
-## 14. Design for different audiences without fragmenting the book
+## 15. Distinguish prediction from decision quality
 
-The same chapter should support different levels of engagement.
+A technically accurate prediction does not automatically create a good decision.
 
-- Enthusiasts should be able to understand and explain the idea.
-- Practitioners should be able to implement, test and diagnose it.
-- Leaders should be able to evaluate choices, consequences and value.
+Discuss objectives, constraints, error costs, uncertainty, alternatives, thresholds, human judgement and consequences.
 
-Use optional tracks and extensions. Do not create three disconnected explanations or three separate books.
+## 16. Make failure a first-class teaching method
 
-## 15. Be honest about uncertainty and limits
+Every important system concept should be examined under failure conditions.
 
-Distinguish:
-- Established principles.
-- Common engineering practices.
-- Context-dependent recommendations.
-- Active research.
-- Speculation.
+Ask:
+- What can go wrong?
+- Why does it happen?
+- How would we detect it?
+- What would the consequences be?
+- How can the system recover?
+- What should change afterwards?
 
-Avoid presenting contested or rapidly evolving practices as settled facts.
+Failure analysis is part of understanding, not an optional advanced topic.
 
-Where claims depend on current tools or research, maintain sources and dates in the research notes.
+## 17. Design for visual understanding
 
-## 16. Keep the book coherent, not exhaustive
+Use diagrams, sketches, tables, timelines and worked examples to make relationships visible.
 
-A topic belongs in the main book when it advances the central argument.
+Visuals must explain something. They must not be decorative substitutes for reasoning.
 
-Do not add a chapter simply because a technology is popular.
+Each chapter should have a visual summary that captures its essential mental model.
 
-Consolidate related material, use sidebars or appendices for specialist depth, and link to supplementary practical resources when necessary.
+## 18. Keep the book durable
 
-## 17. Use a consistent chapter structure
+Prefer enduring principles over fast-changing implementation details.
 
-Each chapter should normally contain:
+When current tools or model families are discussed, label them as examples and provide dates or references where appropriate.
 
-1. Fundamental question.
-2. Concrete situation.
-3. Intuitive explanation.
-4. Mechanism.
-5. Worked anchor example.
-6. Failure or counterexample.
-7. Assumptions and limitations.
-8. Trade-offs and alternatives.
-9. Connections to other concepts.
-10. Practical or reflective challenge.
-11. Takeaway.
-12. Next question.
+The book should remain useful even when today's popular platforms have changed.
 
-Adapt the sequence when the subject genuinely requires it.
+## 19. Respect the reader's time
 
-## 18. Apply the chapter acceptance test
+No filler, artificial repetition, forced chapter length or unnecessary terminology.
 
-A chapter must demonstrate:
+Every section must contribute to understanding, application, evaluation or continuity.
 
-- A distinct question.
-- A necessary concept.
-- A correct explanation of the mechanism.
-- A meaningful boundary or limitation.
-- A misconception it corrects.
-- A connection to the larger system.
-- A change in how the reader can reason or act.
+If a concept can be explained clearly in fewer words, do so.
 
-If it cannot demonstrate these, reconsider its scope or existence.
+## 20. Define success through demonstrated capability
 
-## 19. Make the visual explanation independently useful
+The book succeeds when readers can:
+- Explain concepts accurately.
+- Apply them in meaningful situations.
+- Identify assumptions and limitations.
+- Evaluate unfamiliar systems.
+- Make reasoned decisions.
+- Transfer their understanding to new contexts.
 
-A sketch should not merely decorate the chapter.
+Completion and confidence alone are insufficient measures.
 
-It should help a reader recall and explain:
-- The central concept.
-- The relationship between components.
-- The flow of information or decisions.
-- The critical limitation or feedback loop.
+## 21. Preserve intellectual honesty
 
-Test a sketch without the surrounding prose. If the central idea cannot be recovered, improve the sketch.
+Do not claim the book teaches everything about Data and AI.
 
-## 20. End with a better question
+Be explicit about what is covered, what is introduced only conceptually and what requires deeper specialist study.
 
-Every chapter should resolve its own fundamental question while creating a meaningful next question.
+A strong foundation should help readers recognise the limits of their own knowledge.
 
-The reader should feel that the next chapter is a consequence of the current one, not an unrelated item in a syllabus.
+## 22. The final test
+
+For every chapter, ask:
+
+**What can the reader now understand, explain, do, question or evaluate that they could not reliably do before reading it?**
+
+If the answer is unclear, the chapter needs more work.
