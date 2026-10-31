@@ -1,140 +1,338 @@
-
 # Context Handover — Data & AI Foundations
 
-## Project identity
+**Project:** From Data to Decisions  
+**Flagship:** Data & AI Foundations  
+**Last major editorial revision:** 31 October 2026
 
-- Project: Data & AI Foundations
-- Author: Ankit Rathi
-- Repository: `data-ai-foundations`
-- Primary output: An evergreen foundational book.
-- Supporting outputs: 41 learning sessions, sketch notes, transcripts, examples, and learning questions.
+This document is the handover point for future writing, curriculum design, research and course development.
 
-## Project vision
+## 1. Current direction
 
-Help readers understand the enduring principles behind data, computing, intelligence, and decisions so they can reason about technologies they have not encountered before.
+The project is a connected, first-principles book and course about Data, AI and decision-making.
 
-## Central thesis
+Its central promise is to help readers understand systems rather than memorise tools.
 
-Data and AI are interconnected ways of extending humanity's ability to represent the world, derive knowledge from evidence, and influence outcomes.
+The work must serve three audiences:
+- Data & AI enthusiasts.
+- Experienced Data & AI practitioners.
+- Data & AI leaders.
 
-## Conceptual backbone
+The audiences share one intellectual foundation and use different learning tracks. Do not split the work into three books.
 
-Reality → Representation → Data → Evidence → Intelligence → Decision → Action → Outcome → Learning
+## 2. Current central thesis
 
-Treat this as an organising framework, not a universal linear process.
+Data and AI extend our ability to represent the world, derive knowledge from evidence and influence outcomes. Understanding the principles connecting these capabilities helps us build better systems, evaluate new technologies and make more informed decisions.
 
-## Intended reader
+Central framework:
 
-A technology professional who understands individual tools but wants a connected mental model of the wider technology landscape.
+**Reality → Representation → Data & Information → Evidence → Intelligence → Decision → Action → Outcome → Learning**
 
-The content should also be accessible to newcomers.
+This is a feedback system, not a linear pipeline.
 
-## Editorial direction
+## 3. Canonical syllabus
 
-- First principles, not tool catalogues.
-- Plain English without oversimplifying.
-- Mechanisms before jargon.
-- Examples integrated into explanations.
-- Honest treatment of assumptions and limitations.
-- Historical context explaining why approaches emerged.
-- Technical depth when it improves understanding.
-- No filler or forced chapter expansion.
-- Preserve the author's independent reasoning and voice.
+The current syllabus has:
+- Six parts.
+- 39 chapters.
+- One introduction.
+- One conclusion.
+- 41 course sessions in total.
 
-## Book architecture
+The canonical chapter titles and sequence are in `TABLE_OF_CONTENTS.md`.
 
-Six parts and 39 chapters, preceded by an introduction and followed by a conclusion.
+Do not change the sequence or add chapters casually. First determine whether a gap can be handled through:
+- Better chapter scope.
+- A subsection.
+- A worked example.
+- A technical sidebar.
+- A practical exercise.
+- An appendix or supplementary resource.
 
-See `TABLE_OF_CONTENTS.md`.
+Only propose a new chapter if the existing structure cannot accommodate a genuinely distinct fundamental question.
 
-## Session architecture
+## 4. What changed after the three-persona review
 
-- Session 0: Introduction.
-- Sessions 1–39: Chapters.
-- Session 40: Conclusion.
+### Experienced professional
 
-See `learning/SESSION_ROADMAP.md`.
+The book needs more than conceptual breadth. It must demonstrate technical depth through mechanisms, architecture, failure modes and production implications.
 
-## Important chapter requirements
+Priority areas:
+- Data modelling and contracts.
+- Data integration and schema evolution.
+- Streaming and event semantics.
+- Distributed reliability and delivery guarantees.
+- Platform operations and observability.
+- ML evaluation, deployment and monitoring.
+- RAG retrieval and grounding evaluation.
+- Agent state, planning, permissions and failure recovery.
 
-Each chapter must establish:
-1. The fundamental question.
-2. The real-world problem.
-3. The core concept.
-4. The mechanism.
-5. A meaningful anchor example.
-6. Assumptions and limitations.
-7. At least one relevant connection.
-8. A takeaway.
-9. Probing questions.
-10. A natural next question.
+### Data & AI leader
 
-## Example policy
+The book must connect technology to organisational choices and outcomes.
 
-Use examples to teach, not decorate.
+Priority areas:
+- Business objectives and value measurement.
+- Ownership and decision rights.
+- Centralised versus federated operating models.
+- Build versus buy.
+- Total cost and opportunity cost.
+- Risk, accountability and governance.
+- Adoption, skills and change management.
+- Human versus machine authority.
 
-Prefer:
-- An anchor example.
-- A failure or counterexample.
-- A transfer example where useful.
+These subjects should be integrated into relevant chapters rather than turning the book into a general management textbook.
 
-A bank-payment journey may recur across the book, but should not be forced into every topic.
+### Enthusiast
 
-## Pilot sessions
+The book must remain approachable without becoming superficial.
 
-Initial pilots:
-- Session 0: Introduction.
-- Session 2: How Can We Represent Reality?
-- Session 17: How Can Distributed Systems Work Reliably?
-- Session 29: How Can We Ground and Evaluate AI Outputs?
+Priority areas:
+- Plain-language introductions.
+- Everyday examples and visual explanations.
+- Explicit prerequisite signposting.
+- Small practical experiments.
+- Clear learning milestones.
+- Optional deeper technical sections.
 
-These pilots test different conceptual and technical demands.
+## 5. Three-layer chapter model
 
-## Production workflow
+Every chapter should support:
 
-Research → Understand → Explain → Select example → Develop sketch → Write transcript → Create probing questions → Review → Integrate into manuscript.
+1. **Understand:** intuitive explanation and mental model.
+2. **Explain:** technical mechanism and worked example.
+3. **Evaluate:** assumptions, limitations, failure modes, trade-offs and consequences.
 
-Work in batches of three to five sessions.
+Do not force equal length across these layers.
 
-## Quality gate
+## 6. Required chapter components
 
-Do not mark a chapter complete until:
-- The central question is clear.
-- The explanation is understandable.
-- The mechanism is correct.
-- The example reveals the mechanism.
-- Limitations are explicit.
-- Connections are meaningful.
-- The reader can explain and apply the concept.
-- Important factual claims have been checked.
+A normal chapter should include:
 
-## Current priorities
+1. Fundamental question.
+2. Concrete problem.
+3. Intuitive explanation.
+4. Mechanism.
+5. Anchor example.
+6. Failure or boundary example.
+7. Assumptions and limitations.
+8. Trade-offs and alternatives.
+9. Connection to earlier and later concepts.
+10. Practical or reflective challenge.
+11. Takeaway.
+12. Next question.
 
-1. Establish the repository.
-2. Validate the coverage and concept maps.
-3. Complete the example map.
-4. Finalise chapter and session templates.
-5. Develop the pilot sessions.
-6. Refine the production workflow.
-7. Scale to all 41 sessions.
-8. Integrate session material into the book.
+Add a technical failure scenario where relevant.
 
-## Working rule for future AI collaboration
+Include a recurring section or equivalent treatment of **Why This Matters Beyond Technology** when the chapter has organisational, financial, human or decision-making implications.
 
-Before drafting new material:
-- Read this file.
-- Read `BOOK_BLUEPRINT.md`.
-- Read `BOOK_PRINCIPLES.md`.
-- Check `TABLE_OF_CONTENTS.md`.
-- Check relevant planning maps.
-- Preserve decisions already made unless there is a clear reason to challenge them.
+## 7. Technical coverage expectations
 
-Do not silently change the book's thesis, chapter sequence, or editorial direction.
+Use the coverage map as a control document. At minimum, ensure the syllabus and chapters collectively address:
 
-When proposing a structural change, explain:
-1. What problem it solves.
-2. Why the existing structure is insufficient.
-3. What other chapters or dependencies it affects.
-4. Whether it is essential or optional.
+### Data engineering
+- Data modelling.
+- Schemas and contracts.
+- ETL/ELT, APIs and CDC.
+- Master/reference data.
+- Transactions and concurrency.
+- Batch and streaming.
+- Event time and processing time.
+- Partitioning, replication and consistency.
+- Idempotency and delivery semantics.
+- Warehouses, lakes and lakehouses.
+- Orchestration, observability, recovery and cost.
+- Quality, lineage, metadata, governance and ownership.
 
-The objective is a coherent intellectual work, not simply a large volume of content.
+### Machine learning
+- Features and labels.
+- Training, validation and test separation.
+- Leakage and overfitting.
+- Generalisation and calibration.
+- Evaluation and thresholds.
+- Serving and deployment.
+- Monitoring, drift and retraining.
+
+### Generative AI
+- Tokens and context windows.
+- Embeddings and retrieval.
+- Vector search and RAG.
+- Grounding and hallucinations.
+- Fine-tuning and inference.
+- Evaluation methods.
+- Application integration.
+- Latency, cost, privacy and security.
+
+### Agentic AI
+- Tool use and permissions.
+- State and memory.
+- Planning and execution.
+- Human approval and autonomy.
+- Failure recovery and observability.
+- Prompt injection and unsafe tool execution.
+
+### Organisational context
+- Business value.
+- Ownership and decision rights.
+- Operating models.
+- Build versus buy.
+- Total cost of ownership.
+- Adoption and change.
+- Accountability and risk.
+
+Do not turn this list into a checklist of terms to mention. Every item included in the main book must be explained at a useful level.
+
+## 8. Examples and case continuity
+
+Use a recurring banking payment journey for continuity.
+
+Supplement it with:
+- Retail and e-commerce.
+- Healthcare and public services.
+- Everyday digital products.
+- Other physical or organisational systems when they reveal a principle.
+
+For each chapter, select:
+- One anchor example.
+- One boundary or failure example.
+- One transfer challenge.
+
+Avoid making every chapter banking-specific.
+
+## 9. Course architecture
+
+The course contains 41 sessions.
+
+Each session should normally include:
+- Hook and fundamental question.
+- Intuition and example.
+- Mechanism and sketch.
+- Failure and trade-offs.
+- Practical challenge.
+- Recap and next question.
+
+Suggested learning tracks:
+
+**Enthusiast**
+- Explain a concept.
+- Draw a model.
+- Explore a small example.
+- Connect it to another domain.
+
+**Practitioner**
+- Implement a mechanism.
+- Test an assumption.
+- Measure behaviour.
+- Introduce a failure.
+- Diagnose the result.
+
+**Leader**
+- Evaluate alternatives.
+- Assess cost and risk.
+- Identify decision rights.
+- Define value and success measures.
+- Consider organisational consequences.
+
+The course must be more than narrated book chapters.
+
+## 10. Practical learning environment
+
+Prefer accessible tools:
+- Google Colab.
+- GitHub.
+- SQLite or MySQL.
+- DuckDB.
+- Synthetic datasets.
+- Open-source AI models such as Ollama where hardware permits.
+- Simple diagrams and simulations.
+
+A small dataset can evolve throughout the course:
+1. Represent a real-world situation.
+2. Store and query the data.
+3. Validate quality.
+4. Analyse patterns.
+5. Build and evaluate a model.
+6. Create a grounded AI application.
+7. Evaluate an automated decision workflow.
+
+The tools are replaceable. The learning objectives are not.
+
+## 11. Pilot-first strategy
+
+Before writing all chapters in full, pilot:
+
+1. Session 0 — Introduction.
+2. Chapter 2 — Representation.
+3. Chapter 17 — Distributed reliability.
+4. Chapter 29 — Grounding and evaluating AI outputs.
+5. Chapter 34 — Trust, risk and accountability.
+
+Chapter 34 is particularly useful for testing the leadership layer.
+
+Each pilot must include:
+- Complete chapter.
+- Concept sketch.
+- System or case sketch.
+- Session transcript.
+- Enthusiast activity.
+- Practitioner activity.
+- Leadership exercise.
+- Assessment questions.
+- Independent review.
+
+Test with real readers from all three audiences where possible. Persona simulations are useful for critique but are not a substitute for learner feedback.
+
+## 12. Validation questions
+
+Ask pilot readers:
+
+- What can you explain now that you could not explain before?
+- Can you describe the mechanism without relying on the analogy?
+- Can you identify a limitation or failure mode?
+- Can you apply the principle to a different domain?
+- Did the chapter change a technical or organisational decision you would make?
+- Which sections were too basic, too difficult or unnecessary?
+- Would you continue to the next chapter?
+- Would you recommend the book or course to someone like you?
+
+## 13. Editorial safeguards
+
+Avoid:
+- Expanding the syllabus to chase every new technology.
+- Repeating definitions across chapters.
+- Confusing breadth with depth.
+- Using analogies in place of mechanisms.
+- Treating model output as evidence.
+- Treating prediction as a decision.
+- Treating a successful prototype as a production system.
+- Assuming feedback automatically improves a system.
+- Adding generic leadership commentary without technical grounding.
+- Requiring expensive tools for core learning.
+
+## 14. Immediate next steps
+
+1. Update the repository's foundational documents using this revision.
+2. Update the chapter template to enforce the three learning layers and failure analysis.
+3. Create a coverage map linking each required topic to a chapter and a depth expectation.
+4. Create a concept-boundary register.
+5. Create an example map showing anchor, boundary and transfer examples.
+6. Update the session roadmap and learning assets.
+7. Develop the five pilot sessions.
+8. Gather independent feedback and revise before scaling production.
+
+## 15. Final editorial test
+
+The book should help a reader approach an unfamiliar Data or AI system and ask:
+
+- What is the real-world problem?
+- How is reality being represented?
+- What assumptions are being made?
+- How does the mechanism work?
+- What evidence supports the result?
+- What can fail?
+- What decision does it enable?
+- Who is accountable?
+- What does it cost?
+- How will we measure the outcome?
+- What should we learn next?
+
+The objective is to develop people who can reason about systems, not merely operate tools.
