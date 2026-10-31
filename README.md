@@ -1,40 +1,101 @@
-# Data & AI: Understanding the Connections
-*A working book project by Ankit Rathi*
 
-> **Working thesis:** Data and AI are interconnected ways of extending humanity’s ability to represent the world, derive knowledge from evidence, and influence outcomes. Understanding their underlying principles and relationships helps us reason about technologies beyond the ones we already know.
+# Data & AI Foundations
 
-## Purpose
-This repository is the project charter for a foundational book about data and AI. It holds only the initial project-level documents: the README, table of contents, preface, book principles, and context handover. No chapter directories or chapter-specific pages have been created.
+**Understanding the principles behind data, computing, intelligence, and decisions.**
 
-The book aims to connect concepts that are often learned separately. It is not an encyclopaedia of every tool, an implementation cookbook, or a prediction of the future. It should help readers understand why technologies exist, how their mechanisms work, what assumptions and limits they have, and how they fit into wider systems.
+An evolving learning and publishing project by Ankit Rathi.
 
-## Intended readers
-Primarily experienced data and software professionals who know individual technologies but want a coherent mental model of the wider field. Also intended to be approachable to newcomers and useful to technical leaders, decision-makers, and educators.
+## Why this project exists
 
-Readers should become better able to explain concepts, reason about mechanisms and trade-offs, distinguish evidence from inference, identify failure modes, evaluate new technologies, and learn unfamiliar systems independently.
+Technology changes faster than our ability to understand it.
 
-## Conceptual backbone
-**Reality → Representation / Data → Evidence → Intelligence → Decision → Action → Outcome → Learning**
+New databases, programming languages, cloud platforms, data architectures, machine-learning models, generative AI systems, and autonomous agents emerge continuously.
 
-This is a provisional organising model, not a claim that every real system follows a linear path. Feedback loops, uncertainty, people, incentives, governance, and system boundaries matter throughout.
+Yet many of the fundamental problems remain remarkably consistent:
 
-## Repository contents
-- [`TABLE_OF_CONTENTS.md`](TABLE_OF_CONTENTS.md) — provisional six-part, 39-chapter architecture.
-- [`PREFACE.md`](PREFACE.md) — reader-facing introduction to the book’s purpose.
-- [`BOOK_PRINCIPLES.md`](BOOK_PRINCIPLES.md) — editorial, research, and chapter-design contract.
-- [`CONTEXT_HANDOVER.md`](CONTEXT_HANDOVER.md) — current decisions, open questions, and instructions for continuing.
+- How do we understand the world?
+- How do we represent what we observe?
+- How do we store and process information?
+- How do we distinguish patterns from evidence?
+- How do we learn from data?
+- How do we reason under uncertainty?
+- How do we make better decisions?
+- How do we build systems that act reliably?
+- How do we learn from outcomes?
 
-## Development method
-The author owns the ideas, judgment, voice, and final manuscript. AI is a research, critique, and editing partner—not an unquestioned authority or substitute author.
+This project explores these questions from first principles.
 
-Proposed chapter loop: **Understand → Research → Sketch → Explain → Test → Refine → Write**.
+## Central idea
 
-Pilot this on three different chapters before scaling:
-1. Chapter 2 — *How Can We Represent Reality?*
-2. Chapter 17 — *How Can Distributed Systems Work Reliably?*
-3. Chapter 29 — *How Can We Ground and Evaluate AI Outputs?*
+Data and AI are interconnected ways of extending humanity's ability to represent the world, derive knowledge from evidence, and influence outcomes.
 
-The current stage is project charter and architecture. The table of contents is a working hypothesis, not a fixed contract. The next work should test continuity and the chapter-development method before adding more repository content.
+Understanding their underlying principles and relationships allows us to reason about technologies beyond the ones we already know.
 
-## Guiding question
-> Can we understand the principles beneath today’s technologies well enough to reason about technologies we have not yet met?
+## The conceptual journey
+
+Reality → Representation → Data → Evidence → Intelligence → Decision → Action → Outcome → Learning
+
+This is an organising framework, not a rigid linear model. Real systems contain feedback loops, parallel processes, dependencies, and interactions.
+
+## What this project aims to produce
+
+1. A foundational book on Data and AI.
+2. A structured 41-session learning journey.
+3. Hand-drawn-style visual sketch notes.
+4. Session transcripts and explanations.
+5. Practical examples and probing questions.
+6. A connected knowledge base of concepts and terminology.
+
+## Intended audience
+
+- Data engineers and software engineers.
+- Data architects and technology professionals.
+- Data scientists and AI practitioners.
+- Technology leaders and decision-makers.
+- Students and curious learners.
+
+The primary reader is someone who knows individual technologies but wants to understand how the wider landscape fits together.
+
+## Learning philosophy
+
+We prioritise:
+
+- First principles over tool-specific instructions.
+- Understanding mechanisms over memorising definitions.
+- Connected concepts over isolated topics.
+- Examples over abstract explanations.
+- Evidence over confident assertions.
+- Critical reasoning over technology hype.
+- Adaptability over short-lived technical knowledge.
+
+## Repository structure
+
+- `BOOK_BLUEPRINT.md`: project vision and intended outcome.
+- `BOOK_PRINCIPLES.md`: writing and reasoning standards.
+- `TABLE_OF_CONTENTS.md`: complete book structure.
+- `CONTEXT_HANDOVER.md`: project context for future contributors and AI sessions.
+- `planning/`: coverage, concept, and example maps.
+- `knowledge/`: terminology and research records.
+- `templates/`: reusable chapter, sketch, and transcript templates.
+- `learning/`: 41-session roadmap and learning assets.
+
+## How to contribute or use this repository
+
+1. Read the book blueprint and principles.
+2. Explore the table of contents.
+3. Select a session from the roadmap.
+4. Develop the concept using the chapter template.
+5. Build the visual explanation using the sketch-note template.
+6. Develop the accompanying transcript.
+7. Review the examples, connections, and probing questions.
+8. Update the relevant planning documents.
+
+## Project status
+
+The repository is being established.
+
+The immediate priority is to validate the learning structure through a small number of pilot sessions before scaling production to all 41 sessions.
+
+## Author
+
+Ankit Rathi
