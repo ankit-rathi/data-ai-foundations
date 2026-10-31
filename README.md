@@ -1,101 +1,70 @@
+# From Data to Decisions
 
-# Data & AI Foundations
+## Data & AI Foundations
 
-**Understanding the principles behind data, computing, intelligence, and decisions.**
+**From Understanding Reality to Making Better Decisions**
 
-An evolving learning and publishing project by Ankit Rathi.
+### What is this project?
 
-## Why this project exists
+Data & AI Foundations is a book and guided learning programme designed to help people understand the principles behind data, computing, artificial intelligence and decision-making.
 
-Technology changes faster than our ability to understand it.
+It is built around a simple belief:
 
-New databases, programming languages, cloud platforms, data architectures, machine-learning models, generative AI systems, and autonomous agents emerge continuously.
+> Understanding how systems work is more valuable than memorising the tools used to build them.
 
-Yet many of the fundamental problems remain remarkably consistent:
+Technologies, platforms, programming languages and AI models will continue to change. The underlying challenges—representing reality, managing information, reasoning under uncertainty, learning from evidence, making decisions and understanding consequences—will remain relevant.
 
-- How do we understand the world?
-- How do we represent what we observe?
-- How do we store and process information?
-- How do we distinguish patterns from evidence?
-- How do we learn from data?
-- How do we reason under uncertainty?
-- How do we make better decisions?
-- How do we build systems that act reliably?
-- How do we learn from outcomes?
+This project aims to help readers develop the mental models and practical judgement needed to work with technologies that exist today and adapt to those that emerge tomorrow.
 
-This project explores these questions from first principles.
+### Who is it for?
 
-## Central idea
+The material serves three overlapping audiences:
 
-Data and AI are interconnected ways of extending humanity's ability to represent the world, derive knowledge from evidence, and influence outcomes.
+1. **Data & AI enthusiasts:** Students, early-career professionals and curious learners who want to understand the field from first principles.
+2. **Data & AI practitioners:** Engineers, architects, analysts and AI developers who want to understand the mechanisms, trade-offs and failure modes behind the systems they build.
+3. **Data & AI leaders:** Technical and business leaders who need to evaluate architectures, investments, risks, adoption and organisational outcomes.
 
-Understanding their underlying principles and relationships allows us to reason about technologies beyond the ones we already know.
+This is one coherent foundation, not three separate books.
 
-## The conceptual journey
+Each topic is explored through three learning layers:
 
-Reality → Representation → Data → Evidence → Intelligence → Decision → Action → Outcome → Learning
+- **Understand:** Build an intuitive mental model.
+- **Explain:** Understand the mechanism and how it works.
+- **Evaluate:** Examine assumptions, limitations, trade-offs and consequences.
 
-This is an organising framework, not a rigid linear model. Real systems contain feedback loops, parallel processes, dependencies, and interactions.
+The depth of each layer varies by topic, but all three perspectives matter.
 
-## What this project aims to produce
+### The central idea
 
-1. A foundational book on Data and AI.
-2. A structured 41-session learning journey.
-3. Hand-drawn-style visual sketch notes.
-4. Session transcripts and explanations.
-5. Practical examples and probing questions.
-6. A connected knowledge base of concepts and terminology.
+The book follows a connected system of ideas:
 
-## Intended audience
+**Reality → Representation → Data & Information → Evidence → Intelligence → Decision → Action → Outcome → Learning**
 
-- Data engineers and software engineers.
-- Data architects and technology professionals.
-- Data scientists and AI practitioners.
-- Technology leaders and decision-makers.
-- Students and curious learners.
+This is not a rigid linear pipeline. It is a system of interacting processes and feedback loops.
 
-The primary reader is someone who knows individual technologies but wants to understand how the wider landscape fits together.
+We observe a world, represent parts of it, collect and process information, derive evidence, develop intelligence, make decisions, take action and observe outcomes. Those outcomes influence what we observe, what we believe and what we do next.
 
-## Learning philosophy
+At every stage, errors, assumptions, incentives and constraints can change the result.
 
-We prioritise:
+### What readers should gain
 
-- First principles over tool-specific instructions.
-- Understanding mechanisms over memorising definitions.
-- Connected concepts over isolated topics.
-- Examples over abstract explanations.
-- Evidence over confident assertions.
-- Critical reasoning over technology hype.
-- Adaptability over short-lived technical knowledge.
+By the end, readers should be better able to:
 
-## Repository structure
+- Distinguish reality from the data and models used to represent it.
+- Understand how information is encoded, stored, processed and communicated.
+- Explain the principles behind databases, distributed systems, cloud platforms and data engineering.
+- Reason about uncertainty, statistical evidence, machine learning and artificial intelligence.
+- Understand how modern AI applications, retrieval systems and agents work—and where they fail.
+- Design and evaluate reliable systems rather than only working with individual tools.
+- Connect technical choices to business objectives, cost, risk, accountability and human consequences.
+- Evaluate unfamiliar technologies using principles rather than hype.
+- Keep learning as the field evolves.
 
-- `BOOK_BLUEPRINT.md`: project vision and intended outcome.
-- `BOOK_PRINCIPLES.md`: writing and reasoning standards.
-- `TABLE_OF_CONTENTS.md`: complete book structure.
-- `CONTEXT_HANDOVER.md`: project context for future contributors and AI sessions.
-- `planning/`: coverage, concept, and example maps.
-- `knowledge/`: terminology and research records.
-- `templates/`: reusable chapter, sketch, and transcript templates.
-- `learning/`: 41-session roadmap and learning assets.
+### What this project is not
 
-## How to contribute or use this repository
+It is not:
 
-1. Read the book blueprint and principles.
-2. Explore the table of contents.
-3. Select a session from the roadmap.
-4. Develop the concept using the chapter template.
-5. Build the visual explanation using the sketch-note template.
-6. Develop the accompanying transcript.
-7. Review the examples, connections, and probing questions.
-8. Update the relevant planning documents.
-
-## Project status
-
-The repository is being established.
-
-The immediate priority is to validate the learning structure through a small number of pilot sessions before scaling production to all 41 sessions.
-
-## Author
-
-Ankit Rathi
+- A catalogue of technologies, products or programming languages.
+- A step-by-step certification guide for one cloud or vendor.
+- A collection of disconnected tutorials.
+- A book that promises to teach every Data and AI topic in equal
