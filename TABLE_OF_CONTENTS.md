@@ -1,205 +1,226 @@
 # Table of Contents — Data & AI Foundations
+## From Understanding Reality to Making Better Decisions
 
-**Subtitle:** From Understanding Reality to Making Better Decisions
+This is the canonical 39-chapter structure. The readiness assessment and orientation material sit before the chapters and do not change the chapter count.
 
-## Introduction — Why Understand Data and AI?
+---
 
-- Why do we need to understand the principles behind technologies?
-- Why is knowing tools different from understanding systems?
-- How are reality, data, intelligence and decisions connected?
-- How to use this book: Understand, Explain and Evaluate.
+# Before the Learning Journey
+
+## Why Understanding Data and AI Matters Now
+- The growing influence of data and AI in work and everyday life.
+- The difference between using systems and understanding them.
+- What we risk when we cannot evaluate systems we depend on.
+- What stronger understanding, practical experience and judgement make possible.
+- Why fundamentals matter even as tools and technologies change.
+
+## Data & AI Readiness Assessment
+- Current conceptual understanding.
+- Practical exposure and experience.
+- Applied reasoning through scenarios.
+- Confidence and self-awareness.
+- Personal learning priorities.
+
+## How to Use This Book and Course
+- The three learning levels: Understand, Explain and Apply, Evaluate.
+- The default sequential learning path.
+- Gap-focused navigation.
+- Chapter checkpoints and part-level milestones.
+- How the book and course complement each other.
 
 ---
 
 # Part I — Understanding Reality
 
-**Fundamental question:** How can we understand a world more complex than our ability to observe, comprehend or remember?
+*Before we can build systems around data, we need to understand what we are observing, how we represent it and how we decide what is true.*
 
 ### 1. Why Do We Need to Understand the World?
-Observation, curiosity, human limitations, knowledge and the need to make sense of complexity.
+Observation, curiosity, questions, knowledge and the limitations of human perception.
 
 ### 2. How Can We Represent Reality?
-Abstraction, representation, maps, models, context and the difference between the world and its representation.
+Abstraction, models, categories, variables, representations and the gap between the world and its descriptions.
 
 ### 3. How Do We Measure What We Observe?
-Measurement, proxies, units, operational definitions, error, bias and data collection.
+Measurement, scales, units, operational definitions, sampling, measurement error and bias.
 
 ### 4. How Do We Distinguish Patterns from Coincidence?
-Variation, sampling, correlation, confounding, noise and evidence.
+Variation, probability, statistical reasoning, distributions, uncertainty and misleading patterns.
 
 ### 5. Why Do We Need Models of the World?
-Simplification, assumptions, prediction, explanation, uncertainty and model limitations.
+Models, assumptions, simplification, prediction, explanation and model limitations.
 
 ### 6. How Can Knowledge Outlive Human Memory?
-Records, documentation, institutions, collective knowledge, preservation and the limits of recorded knowledge.
+Recording, documentation, shared knowledge, institutional memory and the foundations of information storage.
 
-**Part I outcome:** Readers can explain why data is a partial representation of reality and why measurement, assumptions and models matter.
+**Part I milestone:** Critically examine a real-world situation and explain how observations, measurements and assumptions shape its representation.
 
 ---
 
 # Part II — Representing and Processing Information
 
-**Fundamental question:** How can we encode, preserve, retrieve, transform and communicate representations of the world?
+*Once we can represent what we observe, how can we make those representations precise, processable and transferable?*
 
 ### 7. What Is Information?
-Information, uncertainty, entropy, meaning, context and the distinction between information and knowledge.
+Data, information, meaning, context, knowledge, uncertainty and information theory foundations.
 
 ### 8. How Can Information Be Encoded?
-Binary representation, numbers, text, character encoding, file formats, compression and information loss.
+Numbers, text, symbols, binary representation, character encoding, compression and structured formats.
 
 ### 9. How Can We Make Reasoning Systematic?
-Logic, algorithms, procedures, formalisation, conditions and repeatability.
+Logic, algorithms, abstraction, decomposition and step-by-step problem solving.
 
 ### 10. What Makes a Machine Computational?
-Computability, computational models, instructions, state and the limits of computation.
+Computational models, state, instructions, memory, execution and the foundations of computer architecture.
 
 ### 11. How Do We Organize Computation?
-Memory, storage, processors, operating systems, resource management and abstraction.
+Operating systems, processes, threads, memory management, files and resource allocation.
 
 ### 12. How Can Machines Exchange Information?
-Networks, protocols, interfaces, distributed communication, APIs and interoperability.
+Communication, protocols, networks, interfaces, APIs, serialization and interoperability.
 
-**Part II outcome:** Readers can explain how information is represented and how machines store, transform and communicate it.
+**Part II milestone:** Explain how a piece of information is represented, processed, stored and communicated by a computer system.
 
 ---
 
 # Part III — Building Systems Around Data
 
-**Fundamental question:** How can we organise, integrate and process growing volumes of data reliably, efficiently and at scale?
+*Individual computations are useful, but dependable data capabilities require systems that can store, coordinate, scale and operate reliably.*
 
 ### 13. How Do We Organize Data for Reliable Use?
-Conceptual, logical and physical data models, schemas, relational databases, files, formats, indexing, data contracts and schema evolution.
+Data structures, files, databases, schemas, data modelling, indexing and data contracts.
 
 ### 14. How Can We Keep Data Correct When Many Things Happen at Once?
-Transactions, concurrency, isolation, consistency, atomicity and ACID.
+Transactions, concurrency, isolation, locking, consistency and integrity.
 
 ### 15. Why Are Recording Transactions and Analyzing Data Different Problems?
-OLTP, OLAP, analytics, warehouses, data lakes, lakehouses and storage/compute separation.
+Operational and analytical workloads, OLTP, OLAP, warehousing, integration and change data capture.
 
 ### 16. What Happens When Data Outgrows a Single Machine?
-Distributed storage, partitioning, parallelism, replication and scale.
+Partitioning, parallelism, distributed storage, distributed processing and scalability.
 
 ### 17. How Can Distributed Systems Work Reliably?
-Partial failures, retries, idempotency, delivery semantics, ordering, consistency, deduplication and recovery.
+Failure, replication, coordination, consistency, delivery semantics, idempotency and recovery.
 
 ### 18. What Changes When Computing Becomes a Service?
-Virtualisation, cloud, managed services, elasticity, cost, security and shared responsibility.
+Virtualisation, cloud computing, managed services, service models, elasticity and shared responsibility.
 
 ### 19. How Do We Turn Data Processing into a Reliable Platform?
-Batch, streaming, ETL/ELT, CDC, event time, processing time, orchestration, observability, recovery and operations.
+Pipelines, orchestration, batch and streaming, event time, observability, deployment, testing and operational reliability.
 
 ### 20. How Can We Make Data Trustworthy and Useful Across an Organization?
-Data quality, metadata, lineage, master/reference data, governance, ownership, data products, data mesh and organisational operating models.
+Data quality, metadata, lineage, governance, ownership, data products, marketplaces and federated operating models.
 
-**Part III outcome:** Readers can reason about the design and reliability of data platforms, including integration, scale, operations and ownership.
+**Part III milestone:** Design or diagnose a dependable data-processing system, explaining its architecture, quality controls, operational risks and trade-offs.
 
 ---
 
 # Part IV — Turning Data into Intelligence
 
-**Fundamental question:** How can we move beyond storing and processing information to discover patterns, develop models and generate new insights?
+*Once data is available and trustworthy enough for a purpose, how can we use it to learn, reason and generate useful outputs?*
 
 ### 21. What Does It Mean to Learn from Data?
-Learning, generalisation, statistical thinking, inductive reasoning and the limits of learning from examples.
+Learning, evidence, generalisation, statistical inference and the foundations of machine learning.
 
 ### 22. How Can We Reason Under Uncertainty?
-Probability, distributions, sampling, estimation, inference and uncertainty.
+Probability, Bayesian reasoning, conditional probability, distributions, confidence and uncertainty.
 
 ### 23. How Can We Tell What Causes What?
-Correlation, causality, confounding, experiments and causal reasoning.
+Correlation, causality, confounding, interventions, experiments and causal inference.
 
 ### 24. How Can Machines Learn from Examples?
-Supervised and unsupervised learning, features, labels, training, validation, test data, leakage and evaluation.
+Supervised, unsupervised and reinforcement learning; training, validation, testing, overfitting and generalisation.
 
 ### 25. Why Did Artificial Intelligence Evolve from Rules to Learning?
-Symbolic AI, expert systems, machine learning, their strengths, limitations and complementarity.
+Symbolic AI, expert systems, statistical learning, limitations of rule-based approaches and the evolution of AI.
 
 ### 26. How Can Machines Learn Useful Representations?
-Neural networks, deep learning, features, embeddings, optimisation and representation learning.
+Features, representation learning, neural networks, embeddings and deep learning.
 
 ### 27. How Can Machines Represent Meaning and Relationships?
-Language, semantics, vector representations, knowledge graphs, attention and relationships between concepts.
+Language, tokens, vectors, semantic representations, attention, transformers and relationships between concepts.
 
 ### 28. How Can Machines Generate New Content?
-Transformers, tokens, context windows, language models, generative modelling, inference and multimodal systems.
+Generative models, language models, diffusion, decoding, prompting, context and generation.
 
 ### 29. How Can We Ground and Evaluate AI Outputs?
-Retrieval, embeddings, vector search, RAG, context construction, grounding, hallucinations, evaluation and reliability.
+Retrieval, grounding, RAG, evaluation, hallucination, provenance, calibration, robustness and AI application quality.
 
-**Part IV outcome:** Readers can distinguish learning from memorisation, prediction from explanation and generated output from verified knowledge.
+**Part IV milestone:** Evaluate a model or intelligent application by examining its evidence, training assumptions, generalisation, output quality and limitations.
 
 ---
 
 # Part V — From Intelligence to Decisions and Action
 
-**Fundamental question:** How can we turn information and intelligence into sound decisions, effective actions and measurable outcomes?
+*Intelligence becomes valuable when it helps us choose and act appropriately. But how do we ensure that decisions and actions create the outcomes we intend?*
 
 ### 30. Why Doesn't Better Information Automatically Lead to Better Decisions?
-Objectives, incentives, judgement, organisational context, decision rights and decision quality.
+Objectives, constraints, preferences, decision quality, information asymmetry and bounded rationality.
 
 ### 31. How Can We Make Decisions Under Uncertainty?
-Decision theory, expected value, utility, risk, constraints, thresholds and error costs.
+Decision theory, expected value, risk, utility, thresholds, trade-offs and sensitivity analysis.
 
 ### 32. How Can We Build Systems That Support Decisions?
-Decision intelligence, business rules, human judgement, workflows, decision architecture and measurable value.
+Decision workflows, rules, predictions, recommendations, human-in-the-loop systems and decision automation.
 
 ### 33. What Changes When Machines Can Take Actions?
-Automation, AI agents, tool use, planning, state, permissions, autonomy, orchestration and human approval.
+Automation, agents, planning, tools, state, memory, permissions, orchestration and recovery.
 
 ### 34. How Much Should We Trust an Intelligent System?
-Explainability, robustness, security, privacy, fairness, prompt injection, data leakage, accountability and human oversight.
+Reliability, explainability, evaluation, security, privacy, bias, oversight, accountability and appropriate trust.
 
 ### 35. How Can Systems Learn from Their Outcomes?
-Feedback loops, monitoring, experimentation, drift, model lifecycle, reinforcement learning and continuous improvement.
+Feedback loops, monitoring, drift, outcome evaluation, adaptation, reinforcement and continuous improvement.
 
-**Part V outcome:** Readers can connect intelligence to decisions, actions, risk, accountability and measured outcomes.
+**Part V milestone:** Design an evidence-informed decision workflow and explain its objectives, error costs, human and machine responsibilities, controls and feedback mechanisms.
 
 ---
 
 # Part VI — Navigating an Uncertain Future
 
-**Fundamental question:** How can we evaluate, adopt and adapt to technologies and capabilities that do not yet exist?
+*When technologies change, what knowledge helps us evaluate what is new, what is genuinely useful and what should remain important?*
 
 ### 36. What Remains Constant When Technologies Change?
-Fundamental problems, abstractions, constraints and enduring principles.
+Enduring principles, abstractions, systems, constraints and the foundations beneath changing tools.
 
 ### 37. How Should We Evaluate an Emerging Technology?
-Capability, evidence, maturity, cost, risk, adoption, alternatives and build-versus-buy decisions.
+Problem definition, evidence, capability, limitations, alternatives, cost, risk, adoption and value.
 
 ### 38. How Do We Think in Systems Rather Than Tools?
-Dependencies, feedback, incentives, second-order effects, operating models and system outcomes.
+Systems thinking, dependencies, feedback, incentives, unintended consequences and organisational context.
 
 ### 39. How Can We Keep Learning in a Changing Field?
-Learning strategies, experimentation, conceptual transfer, critical thinking and adaptability.
+Learning strategies, conceptual transfer, experimentation, critical evaluation and continuous development.
 
-**Part VI outcome:** Readers can evaluate unfamiliar technologies and adapt their understanding without depending on a fixed toolset.
+**Part VI milestone:** Evaluate an unfamiliar technology and produce a reasoned recommendation to adopt, adapt, defer or reject it.
 
 ---
 
-## Conclusion — Learning to See the Connections
+# After the Learning Journey
 
-Return to the central framework:
+## Final Readiness Assessment
+- Reassess conceptual understanding.
+- Compare practical experience and applied reasoning.
+- Revisit opening scenarios using new evidence.
+- Identify changes in confidence and capability.
+- Recognise remaining knowledge gaps.
 
-**Reality → Representation → Data & Information → Evidence → Intelligence → Decision → Action → Outcome → Learning**
+## Reflection: From Data to Decisions
+- What has changed in how I interpret information?
+- What can I now explain or build?
+- What assumptions do I question that I previously accepted?
+- How do I evaluate AI outputs and automated decisions?
+- How will I continue learning and applying these foundations?
 
-The aim is not to memorise the sequence. It is to understand the relationships, feedback loops, assumptions and consequences connecting the parts.
+## Continuing Learning
+Suggested deeper study paths across data engineering, architecture, analytics, statistics, machine learning, generative AI, decision science, governance and systems thinking.
 
-## Course session map
+---
 
-- Session 0: Introduction.
-- Sessions 1–39: Chapters 1–39.
-- Session 40: Conclusion.
+## Course session mapping
 
-## Recurring learning layers
+- Session -1: Readiness Assessment (pre-course activity; not a teaching session).
+- Session 0: Orientation — Why Understanding Data and AI Matters Now.
+- Sessions 1–39: Correspond to the 39 chapters.
+- Session 40: Final Reflection and Assessment.
 
-Each chapter supports three ways of engaging:
-
-- **Understand:** intuition, examples and visual models.
-- **Explain:** mechanisms, implementation and technical detail.
-- **Evaluate:** assumptions, trade-offs, failures and consequences.
-
-Optional practical tracks:
-
-- Enthusiast: explain, sketch and explore.
-- Practitioner: implement, test, measure and diagnose.
-- Leader: evaluate, prioritise and assess organisational consequences.
+**Total: 41 teaching/orientation sessions, plus one pre-course diagnostic activity.**
