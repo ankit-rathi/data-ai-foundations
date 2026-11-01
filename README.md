@@ -1,6 +1,14 @@
 # Data & AI Foundations
 ## From Understanding Reality to Making Better Decisions
 
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/dc32eff8-b8a6-44b2-9ade-7f73246c8487"
+    alt="AI Agents"
+    style="width:100%; max-width:1200px; height:auto; border-radius:8px;"
+  />
+</p>
+
 **A foundational learning journey for understanding, building, evaluating and responsibly using data and AI systems.**
 
 ---
