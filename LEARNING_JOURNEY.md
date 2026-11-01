@@ -1,6 +1,15 @@
 # The Learning Journey
 ## From Understanding Reality to Making Better Decisions
 
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/97c597ae-21de-42a6-ba0b-ccd226952912"
+    alt="AI Agents"
+    style="width:100%; max-width:1200px; height:auto; border-radius:8px;"
+  />
+</p>
+
+
 **Data & AI Foundations | From Data to Decisions**
 
 We live in a world increasingly shaped by data, algorithms and artificial intelligence. We use systems that recommend what to watch, help us navigate unfamiliar places, assess financial transactions, support medical decisions and generate answers to complex questions.
